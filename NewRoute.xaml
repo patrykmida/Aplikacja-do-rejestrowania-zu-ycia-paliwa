@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartSpalanie.NewRoute">
+    <StackLayout BackgroundColor="#344966" Padding="20">
+        <Label Margin="0, 30, 0, 60" TextColor="#F0F4EF" Text="Dodaj przejazd" HorizontalTextAlignment="Center" FontSize="Title" />
+        <Label TextColor="#F0F4EF" Text="Początek trasy:" HorizontalTextAlignment="Left" FontSize="18" />
+        <Entry TextColor="#F0F4EF" x:Name="start" />
+        <Label TextColor="#F0F4EF" Text="Koniec trasy:" HorizontalTextAlignment="Left" FontSize="18" />
+        <Entry TextColor="#F0F4EF" x:Name="end" />
+        <Label TextColor="#F0F4EF" Text="Przebyty dystans [w km]:" HorizontalTextAlignment="Left" FontSize="18" />
+        <Entry TextColor="#F0F4EF" Keyboard="Numeric" x:Name="dist" />
+        <Label TextColor="#F0F4EF" Text="Średnie zużycie na trasie [w l/100km]:" HorizontalTextAlignment="Left" FontSize="18" />
+        <Entry TextColor="#F0F4EF" Keyboard="Numeric" x:Name="fuel_usage" />
+        <Button Text="Zapisz" Clicked="new_route" CornerRadius="25" Margin="0, 20, 0, 0" BackgroundColor="#F0F4EF" FontSize="17" TextColor="#344966" />
+    </StackLayout>
+</ContentPage>

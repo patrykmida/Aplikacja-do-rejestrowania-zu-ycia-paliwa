@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartSpalanie.UserVehicle">
+    <ScrollView>
+        <StackLayout BackgroundColor="#344966" Padding="20">
+            <Label Margin="0, 30, 0, 60" TextColor="#F0F4EF" x:Name="title" HorizontalTextAlignment="Center" FontSize="Title" />
+
+            <Label TextColor="#F0F4EF" Text="Opis:" HorizontalTextAlignment="Start" FontSize="20" />
+            <Label TextColor="#F0F4EF" LineBreakMode="WordWrap" x:Name="desc"  HorizontalTextAlignment="Start" FontSize="18" />
+            <Label TextColor="#F0F4EF" Text="Średnie spalanie (ostatnie 3 trasy):" HorizontalTextAlignment="Start" FontSize="20" />
+            <Label TextColor="#F0F4EF" x:Name="u3" HorizontalTextAlignment="Start" FontSize="18" />
+            <Label TextColor="#F0F4EF" Text="Średnie spalanie (ostatnie 6 trasy):" HorizontalTextAlignment="Start" FontSize="20" />
+            <Label TextColor="#F0F4EF" x:Name="u6" HorizontalTextAlignment="Start" FontSize="18" />
+            <Label TextColor="#F0F4EF" Text="Średnie spalanie (wszystkie trasy):" HorizontalTextAlignment="Start" FontSize="20" />
+            <Label TextColor="#F0F4EF" x:Name="ua" HorizontalTextAlignment="Start" FontSize="18" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

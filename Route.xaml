@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartSpalanie.Route">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#344966" Padding="20">
+            <Label Text="Szczegóły przejazdu" FontSize="25" HorizontalTextAlignment="Center" Margin="0, 30, 0, 30" TextColor="#F0F4EF" />
+            <Label Text="Data:" FontSize="20" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label x:Name="date" FontSize="16" Margin="0, 0, 0, 7" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label Text="Początek trasy:" FontSize="20" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label x:Name="start" FontSize="16" Margin="0, 0, 0, 7" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label Text="Koniec trasy:" FontSize="20" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label x:Name="end" FontSize="16" Margin="0, 0, 0, 7" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label Text="Pokonany dystans:" FontSize="20" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label x:Name="dist" FontSize="16" Margin="0, 0, 0, 7" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label Text="Średnie zużycie na trasie:" FontSize="20" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            <Label x:Name="fuel_usage" FontSize="16" Margin="0, 0, 0, 7" HorizontalTextAlignment="Start" TextColor="#F0F4EF" />
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+    

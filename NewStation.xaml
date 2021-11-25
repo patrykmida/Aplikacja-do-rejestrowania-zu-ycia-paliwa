@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartSpalanie.NewStation">
+
+    <StackLayout BackgroundColor="#344966" Padding="20">
+        <Label Margin="0, 30, 0, 60" TextColor="#F0F4EF" Text="Dodaj nową cenę" HorizontalTextAlignment="Center" FontSize="Title" />
+        <Label TextColor="#F0F4EF" Text="Nazwa stacji" HorizontalTextAlignment="Start" FontSize="18" />
+        <Entry TextColor="#F0F4EF" x:Name="name" />
+        <Label TextColor="#F0F4EF" Text="Miejscowość" HorizontalTextAlignment="Start" FontSize="18" />
+        <Entry TextColor="#F0F4EF" x:Name="town" />
+        <Label TextColor="#F0F4EF" Text="Ulica" HorizontalTextAlignment="Start" FontSize="18" />
+        <Entry TextColor="#F0F4EF" x:Name="street" />
+        <Label TextColor="#F0F4EF" Text="Typ paliwa" HorizontalTextAlignment="Start" FontSize="18" />
+        <Picker x:Name="picker" TextColor="#F0F4EF" TitleColor="#F0F4EF">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Diesel</x:String>
+                    <x:String>Diesel Turbo</x:String>
+                    <x:String>Benzyna 95</x:String>
+                    <x:String>Benzyna 98</x:String>
+                    <x:String>Olej napędowy</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <Label TextColor="#F0F4EF" Text="Cena za 1l" HorizontalTextAlignment="Start" FontSize="18" />
+        <Entry TextColor="#F0F4EF" x:Name="price" Keyboard="Numeric" />
+        <Button Text="Zapisz" Clicked="save" CornerRadius="25" Margin="0, 20, 0, 0" BackgroundColor="#F0F4EF" FontSize="17" TextColor="#344966" />
+    </StackLayout>
+   
+</ContentPage>

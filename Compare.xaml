@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartSpalanie.Compare">
+    <StackLayout BackgroundColor="#344966" Padding="20">
+        <Label Text="Porównywarka" FontSize="25" HorizontalTextAlignment="Center" TextColor="#F0F4EF" />
+        <Label Text="Wyszukiwanie pojazdów..." FontSize="17" HorizontalTextAlignment="Center" TextColor="#F0F4EF" />
+        <ListView ItemTapped="results_details" RowHeight="60" Margin="0, 30, 0, 0" x:Name="results">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="5" BackgroundColor="#B4CDED">
+                            <Label Text="{Binding Username}" FontSize="18" HorizontalOptions="Start" Margin="0, 5, 10, 5" TextColor="#344966" />
+                            <Label Text="{Binding Fuel}" FontSize="18" HorizontalOptions="End"  Margin="0, 5, 10, 5" TextColor="#344966" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

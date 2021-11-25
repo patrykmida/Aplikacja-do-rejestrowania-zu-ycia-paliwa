@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartSpalanie.Tips">
+    <StackLayout BackgroundColor="#344966" Padding="20">
+        <Label Margin="0, 30, 0, 60" TextColor="#F0F4EF" Text="Porady ekonomicznej jazdy" HorizontalTextAlignment="Center" FontSize="Title" />
+        <Label TextColor="#F0F4EF" Text="1. Włącz wyższy bieg najszybciej, jak to możliwe" HorizontalTextAlignment="Start" FontSize="18" />
+        <Label TextColor="#F0F4EF" Text="2. Przyspieszaj energicznie, wciskając pedał gazu do 3/4 głębokości" HorizontalTextAlignment="Start" FontSize="18" />
+        <Label TextColor="#F0F4EF" Text="3. Nie przekraczaj 2500 obr/min w silniku diesla lub 3000 obr/min w silniku benzynowym" HorizontalTextAlignment="Start" FontSize="18" />
+        <Label TextColor="#F0F4EF" Text="4. Jedź na najwyższym możliwym biegu, na najniższych możliwych obrotach" HorizontalTextAlignment="Start" FontSize="18" />
+        <Label TextColor="#F0F4EF" Text="5. Hamuj silnikiem, nie jedź na luzie" HorizontalTextAlignment="Start" FontSize="18" />
+        <Label TextColor="#F0F4EF" Text="6. Prowadź spokojnie, bez zbędnych emocji" HorizontalTextAlignment="Start" FontSize="18" />
+        <Label TextColor="#F0F4EF" Text="Szerokiej drogi!" Margin="0, 20, 0, 0" HorizontalTextAlignment="Center" FontSize="21" />
+       
+    </StackLayout>
+</ContentPage>

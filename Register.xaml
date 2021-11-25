@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartSpalanie.Register">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#344966" Padding="20">
+            <Label Margin="30" TextColor="#F0F4EF" Text="Rejestracja" HorizontalTextAlignment="Center" FontSize="Title" />
+            <Label TextColor="#F0F4EF" Text="Mail" HorizontalTextAlignment="Left" FontSize="18" />
+            <Entry TextColor="#F0F4EF" x:Name="mail" Keyboard="Email"  />
+            <Label TextColor="#F0F4EF" Text="Login" HorizontalTextAlignment="Left" FontSize="18" />
+            <Entry TextColor="#F0F4EF" x:Name="username" />
+            <Label TextColor="#F0F4EF" Text="Hasło" HorizontalTextAlignment="Left" FontSize="18" />
+            <Entry TextColor="#F0F4EF" IsPassword="true" x:Name="password1" />
+            <Label TextColor="#F0F4EF" Text="Powtórz hasło" HorizontalTextAlignment="Left" FontSize="18" />
+            <Entry TextColor="#F0F4EF" IsPassword="true" x:Name="password2" />
+            <Button Clicked="register" Margin="0, 30, 0, 0" BackgroundColor="#F0F4EF" CornerRadius="25" FontSize="17" TextColor="#344966" Text="Zarejestruj" />
+            <Label TextColor="red" HorizontalTextAlignment="Center" x:Name="error" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

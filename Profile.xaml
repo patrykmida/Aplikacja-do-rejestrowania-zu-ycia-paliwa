@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartSpalanie.Profile">
+    <StackLayout BackgroundColor="#344966" Padding="20">
+        <Label x:Name="title" FontSize="25" HorizontalTextAlignment="Center" TextColor="#F0F4EF" />
+        <Label x:Name="title2" FontSize="17" HorizontalTextAlignment="Center" TextColor="#F0F4EF" />
+        <ListView ItemTapped="stations_tapped" RowHeight="60" Margin="0, 30, 0, 0" x:Name="routesL">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="5" BackgroundColor="#B4CDED">
+                            <Label Text="{Binding Date}" FontSize="18" HorizontalOptions="Start" Margin="0, 5, 10, 5" TextColor="#344966" />
+                            <Label Text="{Binding RouteD}" FontSize="18" HorizontalOptions="End"  Margin="0, 5, 10, 5" TextColor="#344966" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button CornerRadius="25" Margin="0, 10, 0, 5" BackgroundColor="#F0F4EF" FontSize="17" TextColor="#344966" Text="Nowy przejazd" Clicked="new_route" />
+        <Button CornerRadius="25" Margin="0, 0, 0, 5" BackgroundColor="#F0F4EF" FontSize="17" TextColor="#344966" Text="Twój samochód" Clicked="vehicle" />
+        <Button CornerRadius="25" BackgroundColor="#F0F4EF" FontSize="17" TextColor="#344966" Text="Stacje paliw" Clicked="petrol_stations" />
+    </StackLayout>
+</ContentPage>
