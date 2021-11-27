@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArrayOfUzytkownikModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UzytkownikModel>
+    <Id>1526f79c-2870-40f1-ac00-21c98146e8e1</Id>
+    <Login>Admin</Login>
+    <Haslo>Admin</Haslo>
+    <CzyAdmin>true</CzyAdmin>
+    <Samochody />
+  </UzytkownikModel>
+</ArrayOfUzytkownikModel>

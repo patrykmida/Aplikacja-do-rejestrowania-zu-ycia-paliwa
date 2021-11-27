@@ -1,0 +1,15 @@
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\bin\Debug\CenyPaliw.exe.config
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\bin\Debug\CenyPaliw.exe
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\bin\Debug\CenyPaliw.pdb
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.csproj.AssemblyReference.cache
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.Form1.resources
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.Logowanie.resources
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.Properties.Resources.resources
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.csproj.GenerateResource.cache
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.csproj.CoreCompileInputs.cache
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.exe
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.pdb
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.SamochodOkno.resources
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.StacjaOkno.resources
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.ProducenciOkno.resources
+D:\Korepetycje\Osoby\MarcinWarszawa\CenyPaliw\CenyPaliw\obj\Debug\CenyPaliw.CenyPaliwOkno.resources

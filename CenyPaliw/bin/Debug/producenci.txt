@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfProducentModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProducentModel>
+    <Id>1ae4d468-09ba-4583-b603-f8b9f458d07f</Id>
+    <Nazwa>Orlen</Nazwa>
+  </ProducentModel>
+  <ProducentModel>
+    <Id>0fa074f9-6458-47d2-92e5-08a61ca5534b</Id>
+    <Nazwa>Statoil</Nazwa>
+  </ProducentModel>
+</ArrayOfProducentModel>

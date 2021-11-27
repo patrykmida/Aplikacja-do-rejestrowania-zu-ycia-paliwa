@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ArrayOfStacjaModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StacjaModel>
+    <Id>5adfdf0e-68cf-47cd-b761-a2b5eacf8509</Id>
+    <IdProducenta>1ae4d468-09ba-4583-b603-f8b9f458d07f</IdProducenta>
+    <Miasto>Opole</Miasto>
+    <Ulica>Oleska</Ulica>
+    <Nr>232</Nr>
+    <CenyPaliw />
+  </StacjaModel>
+  <StacjaModel>
+    <Id>420a43f4-dcec-4f1f-8017-2364dd398820</Id>
+    <IdProducenta>1ae4d468-09ba-4583-b603-f8b9f458d07f</IdProducenta>
+    <Miasto>Olesnica</Miasto>
+    <Ulica>Oleska</Ulica>
+    <Nr>123</Nr>
+    <CenyPaliw>
+      <guid>841a7c61-4c03-4730-8438-962e82bfad57</guid>
+      <guid>e388b66a-efa7-4b22-8c42-42a940fa35cc</guid>
+    </CenyPaliw>
+  </StacjaModel>
+</ArrayOfStacjaModel>

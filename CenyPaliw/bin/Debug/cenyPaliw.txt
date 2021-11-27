@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfCenaPaliwaModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CenaPaliwaModel>
+    <Id>841a7c61-4c03-4730-8438-962e82bfad57</Id>
+    <IdStacji>00000000-0000-0000-0000-000000000000</IdStacji>
+    <Data>2021-11-25T15:03:43.7736937+01:00</Data>
+    <CenaRopy>6.01</CenaRopy>
+    <CenaGazu>3.12</CenaGazu>
+    <CenaPB95>6</CenaPB95>
+    <CenaPB98>6.5</CenaPB98>
+  </CenaPaliwaModel>
+  <CenaPaliwaModel>
+    <Id>e388b66a-efa7-4b22-8c42-42a940fa35cc</Id>
+    <IdStacji>00000000-0000-0000-0000-000000000000</IdStacji>
+    <Data>2021-11-28T15:10:24</Data>
+    <CenaRopy>3</CenaRopy>
+    <CenaGazu>4</CenaGazu>
+    <CenaPB95>5</CenaPB95>
+    <CenaPB98>6</CenaPB98>
+  </CenaPaliwaModel>
+</ArrayOfCenaPaliwaModel>

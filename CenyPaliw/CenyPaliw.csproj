@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA16BBBB-06F3-4CD9-9D6D-06B1EAEDC605}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CenyPaliw</RootNamespace>
+    <AssemblyName>CenyPaliw</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BazaDanych.cs" />
+    <Compile Include="CenyPaliwOkno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CenyPaliwOkno.Designer.cs">
+      <DependentUpon>CenyPaliwOkno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IElement.cs" />
+    <Compile Include="ListViewItemModel\CenaPaliwaItem.cs" />
+    <Compile Include="ListViewItemModel\StacjaItem.cs" />
+    <Compile Include="ListViewItemModel\ProducentItem.cs" />
+    <Compile Include="ListViewItemModel\SamochodItem.cs" />
+    <Compile Include="Logowanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logowanie.Designer.cs">
+      <DependentUpon>Logowanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CenaPaliwaModel.cs" />
+    <Compile Include="Model\ProducentModel.cs" />
+    <Compile Include="Model\RodzajPaliwa.cs" />
+    <Compile Include="Model\SamochodModel.cs" />
+    <Compile Include="Model\StacjaModel.cs" />
+    <Compile Include="Model\UzytkownikModel.cs" />
+    <Compile Include="ProducenciOkno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProducenciOkno.Designer.cs">
+      <DependentUpon>ProducenciOkno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SamochodOkno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SamochodOkno.Designer.cs">
+      <DependentUpon>SamochodOkno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serializator.cs" />
+    <Compile Include="StacjaOkno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StacjaOkno.Designer.cs">
+      <DependentUpon>StacjaOkno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validator.cs" />
+    <Compile Include="Zbior.cs" />
+    <EmbeddedResource Include="CenyPaliwOkno.resx">
+      <DependentUpon>CenyPaliwOkno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logowanie.resx">
+      <DependentUpon>Logowanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProducenciOkno.resx">
+      <DependentUpon>ProducenciOkno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SamochodOkno.resx">
+      <DependentUpon>SamochodOkno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StacjaOkno.resx">
+      <DependentUpon>StacjaOkno.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
